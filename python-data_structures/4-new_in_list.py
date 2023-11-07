@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-def new_in_list(my_list, idx, element):
-    """Replace an element at specific index without modifying the whole list"""
-    if idx < 0 or idx > (len(my_list) - 1):
-        return my_list
+def no_c(my_string):
+    result = ""
+    for char in my_string:
+        if char != 'c' and char != 'C':
+            result += char
+    return result
 
-    copy = [x for x in my_list]
-    copy[idx] = element
-    return copy
+if _name_ == "_main_":
+    print(no_c("Best School"))
+    print(no_c("Chicago"))
+    print(no_c("C is fun!"))
