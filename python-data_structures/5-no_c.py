@@ -8,6 +8,7 @@ def no_c(my_string):
     return result
 
 if _name_ == "_main_":
+
     print(no_c("Best School"))
     print(no_c("Chicago"))
     print(no_c("C is fun!"))
