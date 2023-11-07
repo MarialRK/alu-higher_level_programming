@@ -9,4 +9,4 @@ def no_c(my_string):
 if _name_ == "_main_":
     print(no_c("Best School"))
     print(no_c("Chicago"))
-    print(no_c("C is fun!"))
+    print(no_c("C is fun!"))
