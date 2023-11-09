@@ -1,20 +1,9 @@
 #!/usr/bin/python3
 def max_integer(my_list=[]):
-    # Check if the list is empty
-    if not my_list:
+    if len(my_list) == 0:
         return None
-
-    # Initialize max_value with the first element of the list
-    max_value = my_list[0]
-
-    # Iterate through the list to find the maximum value
-    for num in my_list:
-        if num > max_value:
-            max_value = num
-
-    return max_value
-
-if _name_ == "_main_":
-    my_list = [1, 90, 2, 13, 34, 5, -13, 3]
-    max_value = max_integer(my_list)
-    print("Max: {}".format(max_value))
+    max_int = my_list[0]
+    for i in range(0, len(my_list)):
+        if my_list[i] > max_int:
+            max_int = my_list[i]
+    return max_int
