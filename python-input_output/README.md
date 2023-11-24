@@ -1,1 +1,1 @@
-praise the lord
+AMen
